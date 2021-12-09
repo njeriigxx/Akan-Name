@@ -4,14 +4,12 @@ body {
     background-size: cover;
 }
 .akan {
-
-    border-collapse: collapse;
-     
+    border-collapse: collapse;   
   }
   
 .akan td, .akan th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 8px; 
   }
 .akan tr:nth-child(even){background-color: #f2f2f2;}
 
@@ -19,7 +17,17 @@ body {
 
 .akan th {
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 12px; 
   text-align: left;
   background-color: #04AA6D;
   color: white; }
+button {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    padding:15px 80px;
+    margin:10px;
+    text-decoration:none;
+    background-color: lightcoral;
+}
