@@ -4,9 +4,9 @@ body {
     background-size: cover;
 }
 .akan {
-   
+
     border-collapse: collapse;
-    width: 100%;
+     
   }
   
 .akan td, .akan th {
@@ -22,4 +22,4 @@ body {
   padding-bottom: 12px;
   text-align: left;
   background-color: #04AA6D;
-  color: white; */
+  color: white; }
