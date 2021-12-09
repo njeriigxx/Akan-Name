@@ -1,0 +1,11 @@
+body {
+    background-image: url(images/Ghana-Independence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.start {
+    text-align: center;
+}
+.akan {
+    align-items: flex-end;
+}
