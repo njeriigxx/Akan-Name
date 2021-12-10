@@ -1,4 +1,7 @@
-body {
+/* body{ */
+    /* margin: 0px; */
+}
+/* body {
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,9 +33,9 @@ body {
     text-decoration:none;
     background-color: lightcoral;
 } */
-.iframe{
+/* .iframe{
     position: relative;
     width: 100%;
     padding-bottom: 2%;
     height: 0;
-  }
+  }  */
