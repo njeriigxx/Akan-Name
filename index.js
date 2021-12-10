@@ -1,11 +1,11 @@
-const name = document.getElementById("");
-const name = document.getElementById("");
-const name = document.getElementById("")
+// const name = document.getElementById("");
+// const name = document.getElementById("");
+// const name = document.getElementById("")
 
-var femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw" ,"Kofi", "Kwame" ]
 var maleNames = ["Akosua", "Adwoa" ,"Abena" ,"Akua" ,"Yaa" ,"Afua" ,"Ama"]
+var femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw" ,"Kofi", "Kwame" ]
 var weekDays = ["Sundays", "Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"]
-et dateString = '5/23/2014'  
+let dateString = '5/23/2014'  
 
 // converting Date String to Javascript Date Format
 let day = new Date(dateString).getDay();
@@ -15,19 +15,39 @@ let dayName;
 switch(gender){
 case "female" :
 if (day ==0){
-    dayName= 'Sunday'
+    alert('Hello! You were born on Sunday and your name is Akosua. Akosua means Agile!');
 }else if (day == 1){
-    dayName= 'Monday'
+    alert(' Hello! You were born on Monday and your name is Adwao. Adwao means Peaceful!');
 }else if (day == 2){
-    dayName= 'Tuesday'
+    alert('Hello! You were born on Tuesday and your name is Abena. Abena means Friendly!');
 }else if (day == 3){
-    dayName= 'Wednesday'
+    alert('Hello! You were born on Wednesday and your name is Akua. Akua means Stubborn!');
 }else if (day == 4){
-    dayName= 'Thursday'
+     alert(' Hello! You were born on Thursday and your name is Yaa. Yaa means Brave!');
 }else if (day ==5){
-    dayName= 'Friday'
+     alert(' Hello! You were born on Friday and your name is Afua. Afua means Wanderer!');
 }else {
-    dayName= 'Saturday'
+    alert('Hello! You were born on Saturday and your name is Ama. Ama means Creative!');
 }
+break ;
+case "male" :
+if (day ==0){
+    alert('Hello! You were born on Sunday and your name is Kwasi. Kwasi means Agile!');
+}else if (day == 1){
+    alert(' Hello! You were born on Monday and your name is Kwadwo. Kwadwo means Peaceful!');
+}else if (day == 2){
+    alert('Hello! You were born on Tuesday and your name is Kwabena. Kwabena means Friendly!');
+}else if (day == 3){
+    alert('Hello! You were born on Wednesday and your name is Kwaku. Kwaku means Stubborn!');
+}else if (day == 4){
+     alert(' Hello! You were born on Thursday and your name is Yaw. Yaw means Brave!');
+}else if (day ==5){
+     alert(' Hello! You were born on Friday and your name is Kofi. Kofi means Wanderer!');
+}else {
+    alert('Hello! You were born on Saturday and your name is Kwame. Kwame means Combative!');
+}
+default:
+break;
+   }
 
 console.log(`Day : ${dayName} Month: ${month+1} Year : ${year}`)
