@@ -1,7 +1,4 @@
-/* body{ */
-    /* margin: 0px; */
-}
-/* body {
+  body {
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +6,7 @@
 .akan {
     border-collapse: collapse;   
   }
+  
   
 .akan td, .akan th {
     border: 1px solid #ddd;
@@ -24,7 +22,7 @@
   text-align: left;
   background-color: #04AA6D;
   color: white; }
-/* button {
+button {
     text-align: center;
     cursor: pointer;
     border-radius: 0.3em;
@@ -32,10 +30,22 @@
     padding:16px 80px;
     text-decoration:none;
     background-color: lightcoral;
-} */
-/* .iframe{
+} 
+.iframe{
     position: relative;
     width: 100%;
     padding-bottom: 2%;
     height: 0;
-  }  */
+    
+  }  
+.row img {
+  width: 300px;
+  height:250px ;
+}
+.row {
+ text-align: center;
+}
+h1 {
+  text-decoration: underline;
+  color: darkkhaki;
+}
