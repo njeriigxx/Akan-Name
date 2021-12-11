@@ -1,10 +1,39 @@
-// const name = document.getElementById("");
-// const name = document.getElementById("");
-// const name = document.getElementById("")
+const yearOfBirth = document.getElementById("Year of Birth"); 
+const dateOfBirth = document.getElementById("Date of Birth");
+const monthOfBirth = document.getElementById("Month of Birth")
+const gender = document.getElementById("Gender")
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
 
+form.addEventListener('submit', (e) => {
+    let messages = []
+    // if (name.value === '' || name.value == null) {
+    //   messages.push('Name is required')
+    // }
+  
+    if (yearOfBirth.value === ''  || yearOfBirth.value == null ) {
+      messages.push('Year of Birth is require')
+    }
+  
+    if (monthOfBirth.value  === '' || monthOfBirth.value  == null ) {
+      messages.push('Month of Birth is required')
+    }
+  
+    if (dateOfBirth.value.length === '' || dateOfBirth.value == null ) {
+      messages.push('Date of Birth is required')
+    }
+    if (gender.value === "female/male"  || gender.value == null ){
+        messages.push("You must select either male or female");
+    
+    }
+})
+
+var gender = ["female" ,"male"]
 var maleNames = ["Akosua", "Adwoa" ,"Abena" ,"Akua" ,"Yaa" ,"Afua" ,"Ama"]
 var femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw" ,"Kofi", "Kwame" ]
 var weekDays = ["Sundays", "Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"]
+console.log()
+
 let dateString = '5/23/2014'  
 
 // converting Date String to Javascript Date Format
