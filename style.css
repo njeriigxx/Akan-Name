@@ -48,3 +48,16 @@ h1 {
 .thumbnail {
   font-size: large;
 }
+.form {
+  font-size: large;
+  
+}
+.embed-responsive {
+  text-align:center; 
+  /* display:table-cell; 
+  vertical-align: middle;  */
+  left: 60%;
+  /* margin: 0px; */
+  /* padding-bottom: 10px; */
+  
+}
