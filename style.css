@@ -1,13 +1,8 @@
-  body {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+ 
 .akan {
     border-collapse: collapse;   
   }
-  
-  
+
 .akan td, .akan th {
     border: 1px solid #ddd;
     padding: 8px; 
@@ -23,13 +18,14 @@
   background-color: #04AA6D;
   color: white; }
 button {
+   color: rgb(62, 88, 231);
     text-align: center;
     cursor: pointer;
-    border-radius: 0.3em;
+    /* border-radius: 0.3em;
     box-sizing: border-box;
-    padding:16px 80px;
+    padding:16px 80px; */
     text-decoration:none;
-    background-color: lightcoral;
+    background-color: rgb(165, 156, 156);
 } 
 .iframe{
     position: relative;
@@ -48,4 +44,7 @@ button {
 h1 {
   text-decoration: underline;
   color: darkkhaki;
+}
+.thumbnail {
+  font-size: large;
 }
